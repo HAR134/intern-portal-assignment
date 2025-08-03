@@ -1,0 +1,30 @@
+[
+  {
+    "email": "yusuf22@gmail.com",
+    "password": "ysuf22",
+    "name": "yusuf",
+    "referralCode": "REF3799",
+    "totalDonations": 538
+  },
+  {
+    "email": "hajira04ksa@gmail.com",
+    "password": "hajar04",
+    "name": "M Hajira",
+    "referralCode": "REF6755",
+    "totalDonations": 718
+  },
+  {
+    "email": "ruqhaji134@gmail.com",
+    "password": "ruqhaji134",
+    "name": "Ruqayya",
+    "referralCode": "REF9165",
+    "totalDonations": 769
+  },
+  {
+    "email": "jenijustin04@gmail.com",
+    "password": "jenifer",
+    "name": "jenifer",
+    "referralCode": "REF520",
+    "totalDonations": 742
+  }
+]
