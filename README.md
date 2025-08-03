@@ -3,11 +3,8 @@
 This is a simple full-stack Intern Portal built using **HTML/CSS/JS** for the frontend and **Node.js (Express.js)** for the backend. It simulates login, signup, dashboard, and leaderboard features for interns.
 
 ## 🌐 Live Demo
-🔗 [Click here to view the live project]
+🔗 [Click here to view the live project](https://har134.github.io/intern-portal-assignment/)
 
-> Replace the above link with your actual deployment URL (e.g., Render, GitHub Pages + backend on Render)
-
----
 
 ## 🚀 Features
 
