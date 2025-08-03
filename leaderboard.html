@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Intern Leaderboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="main-header">
+    <h1>Intern Leaderboard</h1>
+    <nav>
+        <a href="index.html">🏠 Home</a>
+        <a href="#" onclick="logout()">🚪 Logout</a>
+    </nav>
+  </header>
+  <div class="dashboard">
+    <h2>Leaderboard</h2>
+    <table>
+      <thead>
+        <tr>
+            <th>Name</th>
+            <th>Referral Code</th>
+            <th>Total Donations</th>
+        </tr>
+      </thead>
+     <tbody id="leaderboard-body">
+        <!-- Dynamic rows will appear here -->
+     </tbody>
+    </table>
+    <a href="dashboard.html" class="btn-link">Back to Dashboard</a>
+    <script src="script.js"></script>
+  </div>
+</body>
+</html>

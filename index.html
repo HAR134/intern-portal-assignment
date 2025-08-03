@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Intern Portel - Login</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <header class="main-header">
+          <h1>Welcome to Intern Portal</h1>
+          <nav>
+            <a class="current" href="index.html" >🏠 Home</a>
+            <a href="#" onclick="logout()">🚪 Logout</a>
+          </nav>
+        </header>
+        <div class="login">
+            <h2>Login</h2>
+            <input type="email" id="email" placeholder="Enter email" required>
+            <input type="password" id="password" placeholder="Enter password" required>
+
+            <button onclick="login()">Login</button>
+            <p class="signup-text">Don't have an account? <a href="signup.html" >Sign up here</a></p>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+</html>

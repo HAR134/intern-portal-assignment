@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intern Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="main-header">
+         <h1>Intern Portal Dashboard</h1>
+         <nav>
+             <a href="index.html" >🏠 Home</a>
+             <a href="#" onclick="logout()">🚪 Logout</a>
+        </nav>
+    </header>
+    <div class="dashboard">
+        <h1>Welcome, <span id="intern-name"></span>!</h1>
+        <p>Referral Code: <span id="referral-code"></span></p>
+        <p>Total Donations Raised: ₹<span id="donation-amount"></span></p>
+
+        <h2>Rewards</h2>
+        <ul>
+            <li>🎁 Bronze Badge – ₹100</li>
+            <li>🎁 Silver Badge – ₹500</li>
+            <li>🎁 Gold Badge – ₹1000</li>
+        </ul>
+        <a href="leaderboard.html" class="btn-link">View Leaderboard</a>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

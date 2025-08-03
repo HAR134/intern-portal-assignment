@@ -1,0 +1,155 @@
+
+/* Default body style for all pages */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f7f9fc;
+    margin: 0;
+}
+
+/* Centered layout only for login/index page */
+.login {
+    background-color: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,1);
+    width: 300px;
+    text-align: center;
+    margin: 100px auto;
+}
+
+.login h2 {
+    margin-bottom: 20px;
+}
+
+.login input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 8px;
+    border: 1px solid gray;
+}
+
+.login button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.login button:hover {
+    background-color: #0056b3;
+}
+
+.signup-text {
+    margin-top: 15px;
+    font-size: 14px;
+    color: #333;
+}
+
+.signup-text a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-text a:hover {
+    text-decoration: underline;
+}
+
+
+/* dashboard page*/
+.main-header {
+  width: 98%;
+  background-color: royalblue;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.main-header h1 {
+  margin-top: 2px;
+  font-size: 1.5rem;
+}
+
+.main-header nav a {
+  color: white;
+  text-decoration: none;
+  margin-left: 20px;
+
+}
+
+.main-header a:hover {
+    color: burlywood;
+    font-weight: bold;
+}
+
+
+.dashboard {
+    background-color: white;
+    padding: 40px;
+    margin: 50px auto; /* auto centers it horizontally */;
+    border-radius: 15px;
+    width: 500px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.dashboard h1 {
+    margin-bottom: 20px;
+}
+
+.dashboard p {
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.dashboard ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dashboard li {
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+.btn-link {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.btn-link:hover {
+    background-color: #218838;
+}
+
+
+/* leaderboard page */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table, th, td {
+  border: 1px solid #ccc;
+}
+
+th, td {
+  padding: 10px;
+  text-align: center;
+}
