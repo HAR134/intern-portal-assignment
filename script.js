@@ -8,7 +8,7 @@ function login() {
         return;
     }
 
-    fetch('http://localhost:5000/api/login', {
+    fetch('https://intern-portal-assignment-z7ax.onrender.com/api/login', {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -46,7 +46,7 @@ function signup() {
 
     console.log("Sending signup data to backend:", { name, email, password });
 
-    fetch('http://localhost:5000/api/signup', {
+    fetch('https://intern-portal-assignment-z7ax.onrender.com/api/signup', {
         method: "POST",
         headers: {
             "Content-Type": "application/json"
@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
         return;
     }
 
-    fetch(`http://localhost:5000/api/intern/${email}`)
+    fetch(`https://intern-portal-assignment-z7ax.onrender.com/api/intern/${email}`)
         .then(res => {
             if (!res.ok) throw new Error("Intern not found");
             return res.json();
@@ -100,7 +100,7 @@ document.addEventListener("DOMContentLoaded", () => {
 //leaderboard
 document.addEventListener('DOMContentLoaded', () => {
   if (window.location.pathname.includes("leaderboard.html")) {
-    fetch('http://localhost:5000/api/leaderboard')
+    fetch('https://intern-portal-assignment-z7ax.onrender.com/api/leaderboard')
       .then(response => response.json())
       .then(data => {
         console.log("Fetched leaderboard data:", data);
@@ -131,6 +131,7 @@ function logout() {
     localStorage.removeItem("internEmail");
     window.location.href = "index.html";
 }
+
 
 
 
